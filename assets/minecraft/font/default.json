@@ -1,0 +1,95 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "minecraft:tablist/tablogo.png",
+      "ascent": 12,
+      "height": 45,
+      "chars": ["β"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:servericons/player_pf.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:servericons/admin_pf.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:servericons/donate_star.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:servericons/donate_star_communism.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:tablist/tps.png",
+      "ascent": 10,
+      "height": 12,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:tablist/ping.png",
+      "ascent": 10,
+      "height": 12,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:tablist/time_played.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:tablist/online_ver1.png",
+      "ascent": 10,
+      "height": 10,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:tablist/online_ver2.png",
+      "ascent": 12,
+      "height": 12,
+      "chars": [""]
+    },
+	{
+      "type": "bitmap",
+      "file": "minecraft:servericons/support_pf.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [""]
+    },
+  {
+      "type": "bitmap",
+      "file": "minecraft:tablist/rec2.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [""]
+    },
+  {
+      "type": "bitmap",
+      "file": "minecraft:servericons/moderator_logo.png",
+      "ascent": 8,
+      "height": 10,
+      "chars": ["𘒤"]
+    }
+  ]
+}

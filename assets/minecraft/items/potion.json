@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/potion"
+        },
+        "cases": [
+            {
+                "when": "1488",
+                "model": {
+                    "type": "model",
+                    "model": "item/iced-coffee"
+                }
+            }
+        ]
+    }
+}
