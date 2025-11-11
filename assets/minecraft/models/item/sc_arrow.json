@@ -1,5 +1,5 @@
 {
-  "parent": "item/super_crossbow/generated",
+  "parent": "item/generated",
   "textures": {
     "layer0": "item/super_crossbow/sc_arrow"
   },
