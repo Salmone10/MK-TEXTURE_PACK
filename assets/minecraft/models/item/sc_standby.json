@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/sc_standby"
+    "layer0": "item/super_crossbow/sc_standby"
   },
   "display": {
         "thirdperson_righthand": {

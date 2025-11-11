@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/sc_pulling_1"
+    "layer0": "item/super_crossbow/sc_pulling_1"
   },
   "display": {
         "thirdperson_righthand": {
