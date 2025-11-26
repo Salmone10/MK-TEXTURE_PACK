@@ -1,7 +1,34 @@
 {
   "model": {
-    "type": "select",
+    "type": "minecraft:range_dispatch",
     "property": "custom_model_data",
+    "entries": [
+        {"threshold": 701, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/absinthe"}},
+        {"threshold": 702, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/light_wine"}},
+        {"threshold": 703, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/whiskey"}},
+        {"threshold": 704, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/vodka"}},
+        {"threshold": 705, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/gin"}},
+        {"threshold": 706, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/cola"}},
+        {"threshold": 707, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/kognac"}},
+        {"threshold": 708, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/coffee"}},
+        {"threshold": 709, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/red_wine"}},
+        {"threshold": 710, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/kumis"}},
+        {"threshold": 711, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/lemonade"}},
+        {"threshold": 712, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/mead"}},
+        {"threshold": 713, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/mochito"}},
+        {"threshold": 714, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/pickle_marinade"}},
+        {"threshold": 715, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/beer"}},
+        {"threshold": 716, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/rome"}},
+        {"threshold": 717, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/sidre"}},
+        {"threshold": 718, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/tequila"}},
+        {"threshold": 719, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/dark_beer"}},
+        {"threshold": 720, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/fanta"}},
+        {"threshold": 721, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/tea"}},
+        {"threshold": 722, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/champagne"}},
+        {"threshold": 723, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/apple_liquor"}}
+
+
+    ],
     "fallback": {
         "type": "model",
         "model": "item/potion",
@@ -11,15 +38,6 @@
                 "default": -13083194
             }
         ]
-    },
-    "cases": [
-        {
-            "when": "701",
-            "model": {
-                "type": "model",
-                "model": "item/brew/kvass"
-            }
-        }
-    ]
+    }
   }
 }
