@@ -63,14 +63,14 @@
               {
               "model":{
                 "type": "minecraft:model",
-                "model": "minecraft:item/sc_arrow"
+                "model": "minecraft:item/super_crossbow/sc_arrow"
                   },
                   "when": "arrow"
                 },
                 {
                   "model": {
                     "type": "minecraft:model",
-                    "model": "minecraft:item/sc_firework"
+                    "model": "minecraft:item/super_crossbow/sc_firework"
                   },
                   "when": "rocket"
                 }
@@ -79,7 +79,7 @@
                 "type": "minecraft:condition",
                 "on_false": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/sc_standby"
+                  "model": "minecraft:item/super_crossbow/sc_standby"
                 },
                 "on_true": {
                   "type": "minecraft:range_dispatch",
@@ -87,21 +87,21 @@
                     {
                       "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/sc_pulling_1"
+                        "model": "minecraft:item/super_crossbow/sc_pulling_1"
                       },
                       "threshold": 0.58
                     },
                     {
                       "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/sc_pulling_2"
+                        "model": "minecraft:item/super_crossbow/sc_pulling_2"
                       },
                       "threshold": 1.0
                     }
                   ],
                   "fallback": {
                     "type": "minecraft:model",
-                    "model": "minecraft:item/sc_pulling_0"
+                    "model": "minecraft:item/super_crossbow/sc_pulling_0"
                   },
                   "property": "minecraft:crossbow/pull"
                 },
