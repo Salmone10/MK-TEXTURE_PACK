@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/stick"
+    },
+    "cases": [
+      {
+        "when": "1789",
+        "model": {
+          "type": "model",
+          "model": "item/star_stick/star_stick"
+        }
+      }
+    ]
+  }
+}
