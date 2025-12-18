@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/MKAWARDS25/active_of_the_year"
+		"0": "item/mkawards25/active_of_the_year"
 	},
 	"elements": [
 		{

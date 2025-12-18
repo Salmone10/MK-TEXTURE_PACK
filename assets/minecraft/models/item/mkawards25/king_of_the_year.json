@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"12": "item/MKAWARDS25/king_of_the_year"
+		"12": "item/mkawards25/king_of_the_year"
 	},
 	"elements": [
 		{

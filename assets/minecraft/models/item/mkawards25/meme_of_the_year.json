@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"25": "item/MKAWARDS25/meme_of_the_year"
+		"25": "item/mkawards25/meme_of_the_year"
 	},
 	"elements": [
 		{
