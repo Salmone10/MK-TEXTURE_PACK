@@ -1,33 +1,17 @@
 {
-  "entity.wolf.howl": {
-    "sounds": [
-      "mob/wolf/howl1",
-      "mob/wolf/howl2"
-    ]
-  },
-  "bd.dragging1": {
-    "sounds": [
-      "custom/dragging1"
-    ]
-  },
-  "bd.dragging2": {
-    "sounds": [
-      "custom/dragging2"
-    ]
-  },
-  "bd.closing-vault-door": {
-    "sounds": [
-      "custom/closing-vault-door"
-    ]
-  },
-  "bd.drawbridge-rattling": {
-    "sounds": [
-      "custom/drawbridge-rattling"
-    ]
-  },
-  "bd.thud": {
-    "sounds": [
-      "custom/thud"
-    ]
-  }
+  "entity.wolf.howl": { "sounds": ["mob/wolf/howl1", "mob/wolf/howl2"]},
+  "bd.dragging1": { "sounds": ["custom/dragging1"]},
+  "bd.dragging2": { "sounds": ["custom/dragging2"]},
+  "bd.closing-vault-door": { "sounds": ["custom/closing-vault-door"]},
+  "bd.drawbridge-rattling": { "sounds": ["custom/drawbridge-rattling"]},
+  "bd.thud": { "sounds": ["custom/thud"]},
+  "mkfx.horror": { "sounds": ["mkfx/horror"]},
+  "mkfx.meteore": { "sounds": ["mkfx/meteoreexplosion"]},
+  "mkfx.suround": { "sounds": ["mkfx/suround"]},
+  "mkfx.amongus.defeat": { "sounds": ["mkfx/amongus/defeatsound"]},
+  "mkfx.amongus.eject": { "sounds": ["mkfx/amongus/ejectsound"]},
+  "mkfx.amongus.meet": { "sounds": ["mkfx/amongus/meetingsound"]},
+  "mkfx.amongus.reveal": { "sounds": ["mkfx/amongus/rolerevealsound"]},
+  "mkfx.amongus.victory": { "sounds": ["mkfx/amongus/victorysound"]},
+  "mkfx.amongus.vote": { "sounds": ["mkfx/amongus/votesound"]}
 }
