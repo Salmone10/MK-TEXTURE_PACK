@@ -5,9 +5,13 @@
   "bd.closing-vault-door": { "sounds": ["custom/closing-vault-door"]},
   "bd.drawbridge-rattling": { "sounds": ["custom/drawbridge-rattling"]},
   "bd.thud": { "sounds": ["custom/thud"]},
+
   "mkfx.horror": { "sounds": ["mkfx/horror"]},
   "mkfx.meteore": { "sounds": ["mkfx/meteoreexplosion"]},
   "mkfx.suround": { "sounds": ["mkfx/suround"]},
+  "mkfx.speech": { "sounds": ["mkfx/speech"]},
+  "mkfx.siren": { "sounds": ["mkfx/siren"]},
+
   "mkfx.amongus.defeat": { "sounds": ["mkfx/amongus/defeatsound"]},
   "mkfx.amongus.eject": { "sounds": ["mkfx/amongus/ejectsound"]},
   "mkfx.amongus.meet": { "sounds": ["mkfx/amongus/meetingsound"]},
