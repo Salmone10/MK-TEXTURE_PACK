@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/paper"
+    },
+    "cases": [
+        {"when": "1020", "model": {"type": "minecraft:model", "model": "minecraft:item/recipe/recipe"}}
+    ]
+  }
+}
