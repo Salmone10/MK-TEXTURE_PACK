@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_hoe"
+    },
+    "cases": [
+      {
+        "when": "1703",
+        "model": {
+          "type": "model",
+          "model": "item/trowels/diamond_trowel"
+        }
+      }
+    ]
+  }
+}

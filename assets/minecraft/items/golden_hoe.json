@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/golden_hoe"
+    },
+    "cases": [
+      {
+        "when": "1702",
+        "model": {
+          "type": "model",
+          "model": "item/trowels/golden_trowel"
+        }
+      }
+    ]
+  }
+}
