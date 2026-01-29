@@ -6,13 +6,6 @@
 	"component": "minecraft:custom_name",
 "cases": [
 	{
-		"when": ["Albatross", "Альбатрос"],
-		"model": {
-			"type": "minecraft:model",
-			"model": "ksepsp:item/8_0/hats/mount/albatross"
-		}
-	},
-	{
 		"when": ["Dodo", "Додо"],
 		"model": {
 			"type": "minecraft:model",
@@ -38,13 +31,6 @@
 		"model": {
 			"type": "minecraft:model",
 			"model": "ksepsp:item/8_0/hats/mount/parachute"
-		}
-	},
-	{
-		"when": ["Red Baron", "Красный барон"],
-		"model": {
-			"type": "minecraft:model",
-			"model": "ksepsp:item/8_0/hats/mount/red_baron"
 		}
 	},
 	{

@@ -3,8 +3,22 @@
     "type": "select",
     "property": "custom_model_data",
     "fallback": {
-        "type": "model",
-        "model": "item/netherite_pickaxe"
+        "type": "select",
+        "property": "minecraft:component",
+	    "component": "minecraft:custom_name",
+        "cases": [
+            {
+            "when": ["Pitchfork", "Вилы"],
+            "model": {
+                "type": "minecraft:model",
+                "model": "ksepsp:item/9_0/tools/hoe/pitchfork"
+            }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+		    "model": "minecraft:item/netherite_pickaxe"
+        }
     },
     "cases": [
         {

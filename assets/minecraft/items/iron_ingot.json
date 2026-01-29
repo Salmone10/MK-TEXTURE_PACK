@@ -964,24 +964,10 @@
 		}
 	},
 	{
-		"when": ["Pirate Reich Wall Flag", "Настенный флаг Пиратского Рейха"],
-		"model": {
-			"type": "minecraft:model",
-			"model": "ksepsp:item/9_0/furniture/furniture/pirate_reich_wall_flag"
-		}
-	},
-	{
 		"when": ["Pirate Wall Flag", "Настенный пиратский флаг"],
 		"model": {
 			"type": "minecraft:model",
 			"model": "ksepsp:item/9_0/furniture/furniture/pirate_wall_flag"
-		}
-	},
-	{
-		"when": ["Reichsmacht Wall Flag", "Настенный флаг Рейхсмахта"],
-		"model": {
-			"type": "minecraft:model",
-			"model": "ksepsp:item/9_0/furniture/furniture/reichmacht_wall_flag"
 		}
 	},
 	{

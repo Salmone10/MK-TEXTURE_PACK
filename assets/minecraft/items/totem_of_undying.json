@@ -103,13 +103,6 @@
 		}
 	},
 	{
-		"when": ["Iron Cross", "Железный крест"],
-		"model": {
-			"type": "minecraft:model",
-			"model": "ksepsp:item/9_0/other/totem_of_undying/iron_cross"
-		}
-	},
-	{
 		"when": ["Iron Cup", "Железный кубок"],
 		"model": {
 			"type": "minecraft:model",
