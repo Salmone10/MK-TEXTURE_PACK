@@ -90,13 +90,6 @@
 		}
 	},
 	{
-		"when": ["Фюрер", "Fuhrer"],
-		"model": {
-			"type": "minecraft:model",
-			"model": "ksepsp:item/8_0/furniture/paintings/hitler"
-		}
-	},
-	{
 		"when": ["Дом Августа", "August's Home"],
 		"model": {
 			"type": "minecraft:model",
