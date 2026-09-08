@@ -4,8 +4,8 @@
       "type": "bitmap",
       "file": "minecraft:tablist/tablogo.png",
       "ascent": 12,
-      "height": 45,
-      "chars": ["β"]
+      "height": 65,
+      "chars": [""]
     },
     {
       "type": "bitmap",
@@ -20,13 +20,6 @@
       "ascent": 8,
       "height": 8,
       "chars": [""]
-    },
-	{
-      "type": "bitmap",
-      "file": "minecraft:servericons/donate_star.png",
-      "ascent": 8,
-      "height": 8,
-      "chars": [""]
     },
 	{
       "type": "bitmap",

@@ -1,19 +1,71 @@
 {
-    "model": {
-        "type": "select",
-        "property": "custom_model_data",
-        "fallback": {
-            "type": "model",
-            "model": "item/potion"
-        },
-        "cases": [
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+        {"threshold": 1111, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/1_red_wine"}},
+        {"threshold": 1112, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/2_light_wine"}},
+        {"threshold": 1113, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/3_kumis"}},
+        {"threshold": 1114, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/4_mochito"}},
+        {"threshold": 1115, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/5_mead"}},
+        {"threshold": 1116, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/6_sidre"}},
+        {"threshold": 1117, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/7_whiskey"}},
+        {"threshold": 1118, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/8_rum"}},
+        {"threshold": 1119, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/9_vodka"}},
+        {"threshold": 11110, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/10_gin"}},
+        {"threshold": 11111, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/11_tequila"}},
+        {"threshold": 11112, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/12_absinthe"}},
+        {"threshold": 11113, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/13_cognac"}},
+        {"threshold": 11114, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/14_catmead"}},
+        {"threshold": 11115, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/15_champagne"}},
+        {"threshold": 11116, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/16_scrumpy"}},
+        {"threshold": 11117, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/17_cola"}},
+        {"threshold": 11118, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/18_fanta"}},
+        {"threshold": 11119, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/19_sprite"}},
+        {"threshold": 11120, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/20_baikal"}},
+        {"threshold": 11121, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/21_lemonade"}},
+        {"threshold": 11122, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/22_schweppes"}},
+        {"threshold": 11123, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/23_kvass"}},
+        {"threshold": 11124, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/24_apple_liquor"}},
+        {"threshold": 11125, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/25_lemon_liquor"}},
+        {"threshold": 11126, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/26_strawberry_liquor"}},
+        {"threshold": 11127, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/27_raspberry_liquor"}},
+        {"threshold": 11128, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/28_blueberry_liquor"}},
+        {"threshold": 11129, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/29_cherry_liquor"}},
+        {"threshold": 11130, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/30_orange_liquor"}},
+        {"threshold": 11131, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/31_zirbenz"}},
+        {"threshold": 11132, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/32_milkytea"}},
+        {"threshold": 11133, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/33_glowing_tea"}},
+        {"threshold": 11134, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/34_berry_tea"}},
+        {"threshold": 11135, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/35_chamomile_tea"}},
+        {"threshold": 11136, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/36_grass_tea"}},
+        {"threshold": 11137, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/37_espresso"}},
+        {"threshold": 11138, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/38_americano"}},
+        {"threshold": 11139, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/39_flat_white"}},
+        {"threshold": 11140, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/40_cappuccino"}},
+        {"threshold": 11141, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/41_latte"}},
+        {"threshold": 11142, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/42_raff"}},
+        {"threshold": 11143, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/43_lavender_raff"}},
+        {"threshold": 11144, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/44_light_beer"}},
+        {"threshold": 11145, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/45_dark_beer"}},
+        {"threshold": 11146, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/46_stout"}},
+        {"threshold": 11147, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/47_Oily_oaf"}},
+        {"threshold": 11148, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/48_Leaflovers_special"}},
+        {"threshold": 11149, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/49_Glyphid_slammers"}},
+        {"threshold": 11150, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/50_creamed_milk"}},
+        {"threshold": 11151, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/51_pickle_marinade"}},
+        {"threshold": 11152, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/52_mineral_water"}},
+        {"threshold": 11153, "model": {"type": "minecraft:model", "model": "minecraft:item/brew/53_airan"}}
+    ],
+    "fallback": {
+        "type": "model",
+        "model": "item/potion",
+        "tints": [
             {
-                "when": "1488",
-                "model": {
-                    "type": "model",
-                    "model": "item/iced-coffee"
-                }
+                "type": "minecraft:potion",
+                "default": -13083194
             }
         ]
     }
+  }
 }

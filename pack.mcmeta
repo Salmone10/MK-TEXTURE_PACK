@@ -1,31 +1,9 @@
 {
   "pack": {
-    "pack_format": 64,
-    "supported_formats": {
-      "min_inclusive": 18,
-      "max_inclusive": 64
-    },
+    "pack_format": 88.0,
     "description": {
-      "text": "Официальный ресурспак МайнКантри!",
+      "text": "Официальный ресурспак МК-4!",
       "color": "gold"
     }
-  },
-  "overlays": {
-    "entries": [
-      {
-        "formats": {
-          "min_inclusive": 32,
-          "max_inclusive": 55
-        },
-        "directory": "1_20_5-1_21_5"
-      },
-      {
-        "formats": {
-          "min_inclusive": 18,
-          "max_inclusive": 31
-        },
-        "directory": "1_20_2-1_20_4"
-      }
-    ]
   }
 }
