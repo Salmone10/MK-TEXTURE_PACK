@@ -1,3 +1,9 @@
 {
-    "mkfx.fart": { "sounds":["mkfx/fart"]}
+    "mkfx.fart": { "sounds":["mkfx/fart"]},
+    "mkfx.kiss": { "sounds":["mkfx/kiss"]},
+    "mkfx.burp": { "sounds":["mkfx/burp"]},
+    "mkfx.vomit": { "sounds":["mkfx/vomit"]},
+    "mkfx.sneeze": { "sounds":["mkfx/sneeze"]},
+    "mkfx.cough": { "sounds":["mkfx/cough"]},
+    "mkfx.spit": { "sounds":["mkfx/spit"]}
 }

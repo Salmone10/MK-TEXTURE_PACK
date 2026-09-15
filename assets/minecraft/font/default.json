@@ -3,16 +3,16 @@
     {
       "type": "bitmap",
       "file": "minecraft:tablist/tablogo.png",
-      "ascent": 12,
-      "height": 65,
-      "chars": ["✶"]
+      "ascent": 8,
+      "height": 8,
+      "chars": [""]
     },
     {
       "type": "bitmap",
       "file": "minecraft:servericons/player_pf.png",
       "ascent": 8,
       "height": 8,
-      "chars": [""]
+      "chars": [""]
     },
 	{
       "type": "bitmap",
@@ -33,7 +33,7 @@
       "file": "minecraft:tablist/tps.png",
       "ascent": 10,
       "height": 12,
-      "chars": [""]
+      "chars": ["β"]
     },
 	{
       "type": "bitmap",
